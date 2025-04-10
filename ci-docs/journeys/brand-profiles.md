@@ -59,5 +59,4 @@ And that’s it! Your profile is created and is ready to use in your emails. Lea
 
 > [!IMPORTANT]
 > The brand profile table is editable, so you can add new fields to it. For example, you could add fields to store URL links for more social platforms.
-
-[!INCLUDE [footer-include](./includes/footer-banner.md)]
+> However, when you update a brand profile, these changes are not automatically applied to your already published emails. Check [how to update brand profile in your published emails](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/brand-profiles-email#Updating-Brand-Profiles-in-Emails).
