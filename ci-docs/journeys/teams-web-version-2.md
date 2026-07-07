@@ -44,6 +44,9 @@ For more information, see [Manage meeting settings in Microsoft Teams](/microsof
 In Microsoft Teams, a co-organizer is a designated person assigned by the primary organizer to help manage a town hall, with permissions to manage the lobby, to start/stop recording, and manage attendee roles. They can be added to assist with setup and execution, allowing them to join early and control production tools.
 
 To add a co-organizer to your event, first add them to the **Team Members table on Additional information tab** in your event. To be able to add the team member successfully, they need to be part of your organization and have access to both - Customer Insights Journeys and your Teams instance. Once the team member is added, you can navigate to the **General tab** and add a co-organizer through the lookup.
+> [!IMPORTANT]
+Teams co-organizer synchronization has some limitations. While Event Management allows you to select any contact as a co-organizer, Microsoft Teams only supports co-organizers within your Microsoft 365 tenant. As a result, external contacts won't be added as Teams co-organizers, even if synchronization completes successfully. 
+Additionally, co-organizer synchronization is one-way: changes made in Event Management are reflected in Teams, but changes made directly in Teams aren't synced back to Event Management. To avoid inconsistencies, we recommend managing co-organizers from Event Management and only selecting users who are supported by Teams.
 
 :::image type="content" source="media/coorganizer.png" alt-text="Screenshot of settings for webinar." lightbox="media/coorganizer.png":::
 
